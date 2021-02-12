@@ -1,0 +1,36 @@
+.center{
+    display: grid;
+    justify-content: center;
+}
+.contaner{
+    border: 2px solid black;
+    height: 90vh;
+    width: 60vh;
+    display: grid;
+    justify-content: center;
+    
+    
+}
+.display{
+    width:auto;
+    height: 10vh;
+    display: grid;
+    justify-content: center;
+    margin: 10px;
+}
+.button{
+    width: auto;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 10px;
+    
+}
+button{
+    width: 100px;
+    height: 70px;
+    margin: 20px;
+}
+.display1{
+    width: 50vh;
+}
